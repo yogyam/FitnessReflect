@@ -80,7 +80,8 @@ The frontend runs on `http://localhost:3000`. The agent connects to the LiveKit 
 - **Re-ingestion on every log**: After each tool call, the entire PDF is regenerated and re-ingested. This is acceptable for a small document but would not scale to thousands of entries. A production system would use incremental upserts.
 - **No oven, no problem**: The PDF generation script builds valid PDF files from scratch using raw PDF stream commands and built-in Type1 fonts. No `reportlab` or `weasyprint` dependency is needed.
 - **STT model**: Using Whisper via the OpenAI API. The LiveKit OpenAI plugin handles chunking and streaming internally.
-- **Chunking strategy**: Ingestion chunks by PDF page. Each page maps roughly to 2-3 daily entries, which keeps retrieval granularity reasonable without over-fragmenting the context.
+- **Chunking strategy**: The `ingest_pdf.py` script was custom-written with a regex to chunk the document precisely by each `## Day` header, rather than arbitrarily by page. This ensures the RAG retriever fetches exact, neatly-segmented daily logs.
+- **Hosting assumptions**: Built under the assumption that the agent and frontend could run in isolated environments (AWS EC2 worker vs. Vercel serverless). However, because the RAG pipeline utilizes local files (`fitness-log.md`), true end-to-end synchronization of the frontend graph in production requires hosting the Next.js app on the same EC2 instance.
 
 
 ## Acknowledgements
