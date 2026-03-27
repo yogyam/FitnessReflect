@@ -121,3 +121,9 @@ Steps: 15000. Calories: 2300 kcal. Protein: 150g. Reflection: High-intensity day
 
 ## Day X - March 26th
 Steps: 15000. Calories: 2200 kcal. Protein: 150g. Reflection: High-intensity day; felt great after a solid workout.
+
+## Day X - March 26th
+Steps: 12000. Calories: 2500 kcal. Protein: 150g. Reflection: Very high intensity leg workout with some cardio.
+
+## Day X - March 26th
+Steps: 11000. Calories: 2500 kcal. Protein: 120g. Reflection: High-intensity leg workout felt good.

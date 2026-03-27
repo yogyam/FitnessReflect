@@ -82,6 +82,7 @@ The frontend runs on `http://localhost:3000`. The agent connects to the LiveKit 
 - **STT model**: Using Whisper via the OpenAI API. The LiveKit OpenAI plugin handles chunking and streaming internally.
 - **Chunking strategy**: The `ingest_pdf.py` script was custom-written with a regex to chunk the document precisely by each `## Day` header, rather than arbitrarily by page. This ensures the RAG retriever fetches exact, neatly-segmented daily logs.
 - **Hosting assumptions**: Built under the assumption that the agent and frontend could run in isolated environments (AWS EC2 worker vs. Vercel serverless). However, because the RAG pipeline utilizes local files (`fitness-log.md`), true end-to-end synchronization of the frontend graph in production requires hosting the Next.js app on the same EC2 instance.
+- **LiveKit agent design**: The voice pipeline was explicitly built as a single agent loop that acts as an accountability coach rather than a multi-agent swarm. By injecting the `search_fitness_journal` tool into the prompt context, the single agent handles both conversational empathy and data retrieval concurrently.
 
 
 ## Acknowledgements
