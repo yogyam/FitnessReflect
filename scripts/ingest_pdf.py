@@ -11,7 +11,7 @@ from openai import OpenAI
 from pypdf import PdfReader
 
 
-HEADING_PATTERN = re.compile(r"^Chapter\s+\d+:", re.IGNORECASE)
+HEADING_PATTERN = re.compile(r"^(?:##\s+Day|Chapter\s+\d+:)", re.IGNORECASE)
 
 
 def read_pdf(path: Path) -> list[str]:
