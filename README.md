@@ -81,3 +81,7 @@ The frontend runs on `http://localhost:3000`. The agent connects to the LiveKit 
 - **No oven, no problem**: The PDF generation script builds valid PDF files from scratch using raw PDF stream commands and built-in Type1 fonts. No `reportlab` or `weasyprint` dependency is needed.
 - **STT model**: Using Whisper via the OpenAI API. The LiveKit OpenAI plugin handles chunking and streaming internally.
 - **Chunking strategy**: Ingestion chunks by PDF page. Each page maps roughly to 2-3 daily entries, which keeps retrieval granularity reasonable without over-fragmenting the context.
+
+
+## Acknowledgements
+I used Claude to discuss the idea at first. Then I used Antigravity to code out the frontend and backend, and it helped guide me to hosting the LiveKit Agent through AWS EC2.
