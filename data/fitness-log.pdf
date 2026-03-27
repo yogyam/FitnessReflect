@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Count 5 /Kids [11 0 R 12 0 R 13 0 R 14 0 R 15 0 R] >>
+<< /Type /Pages /Count 6 /Kids [12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R] >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -97,7 +97,7 @@ BT
 1 0 0 1 54 32 Tm
 (The Luma Guide) Tj
 1 0 0 1 512 32 Tm
-(1 / 5) Tj
+(1 / 6) Tj
 ET
 endstream
 endobj
@@ -185,7 +185,7 @@ BT
 1 0 0 1 54 32 Tm
 (The Luma Guide) Tj
 1 0 0 1 512 32 Tm
-(2 / 5) Tj
+(2 / 6) Tj
 ET
 endstream
 endobj
@@ -274,7 +274,7 @@ BT
 1 0 0 1 54 32 Tm
 (The Luma Guide) Tj
 1 0 0 1 512 32 Tm
-(3 / 5) Tj
+(3 / 6) Tj
 ET
 endstream
 endobj
@@ -362,7 +362,7 @@ BT
 1 0 0 1 54 32 Tm
 (The Luma Guide) Tj
 1 0 0 1 512 32 Tm
-(4 / 5) Tj
+(4 / 6) Tj
 ET
 endstream
 endobj
@@ -447,45 +447,72 @@ BT
 1 0 0 1 54 32 Tm
 (The Luma Guide) Tj
 1 0 0 1 512 32 Tm
-(5 / 5) Tj
+(5 / 6) Tj
 ET
 endstream
 endobj
 11 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+<< /Length 311 >>
+stream
+BT
+/F2 16 Tf
+1 0 0 1 54 736 Tm
+(Day X - March 26th) Tj
+/F1 12 Tf
+1 0 0 1 54 710 Tm
+(Steps: 15000. Calories: 2200 kcal. Protein: 150g. Reflection: High-intensity day; felt) Tj
+1 0 0 1 54 694 Tm
+(great after a solid workout.) Tj
+ET
+BT
+/F3 10 Tf
+1 0 0 1 54 32 Tm
+(The Luma Guide) Tj
+1 0 0 1 512 32 Tm
+(6 / 6) Tj
+ET
+endstream
 endobj
 12 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
 endobj
 13 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
 endobj
 14 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
 endobj
 15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+16 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
 endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
 xref
-0 16
+0 18
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000150 00000 n 
-0000000220 00000 n 
-0000000295 00000 n 
-0000000373 00000 n 
-0000003079 00000 n 
-0000005754 00000 n 
-0000008369 00000 n 
-0000010989 00000 n 
-0000013440 00000 n 
-0000013587 00000 n 
-0000013734 00000 n 
-0000013881 00000 n 
-0000014028 00000 n 
+0000000157 00000 n 
+0000000227 00000 n 
+0000000302 00000 n 
+0000000380 00000 n 
+0000003086 00000 n 
+0000005761 00000 n 
+0000008376 00000 n 
+0000010996 00000 n 
+0000013447 00000 n 
+0000013810 00000 n 
+0000013957 00000 n 
+0000014104 00000 n 
+0000014251 00000 n 
+0000014398 00000 n 
+0000014546 00000 n 
 trailer
-<< /Size 16 /Root 1 0 R >>
+<< /Size 18 /Root 1 0 R >>
 startxref
-14176
+14694
 %%EOF

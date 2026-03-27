@@ -118,3 +118,6 @@ Steps: 9000. Calories: 2400 kcal. Protein: 170g. Reflection: Back on track. Smas
 
 ## Day X - March 26th
 Steps: 15000. Calories: 2300 kcal. Protein: 150g. Reflection: High-intensity day; felt great overall.
+
+## Day X - March 26th
+Steps: 15000. Calories: 2200 kcal. Protein: 150g. Reflection: High-intensity day; felt great after a solid workout.

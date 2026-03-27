@@ -19,7 +19,7 @@ class RetrievedChunk:
     score: float
 
 
-class LumaRetriever:
+class ReflectRetriever:
     def __init__(
         self,
         persist_dir: Path | None = None,

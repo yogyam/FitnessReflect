@@ -12,12 +12,12 @@ from livekit.plugins import openai, silero
 from agent.config import settings
 from agent.journal_tool import log_daily_reflection
 from agent.prompts import SYSTEM_PROMPT
-from agent.rag import LumaRetriever
+from agent.rag import ReflectRetriever
 
 load_dotenv()
 
 class ReflectFunctionContext(llm.FunctionContext):
-    def __init__(self, retriever: LumaRetriever) -> None:
+    def __init__(self, retriever: ReflectRetriever) -> None:
         super().__init__()
         self.retriever = retriever
 
@@ -58,14 +58,14 @@ class ReflectFunctionContext(llm.FunctionContext):
         )
 
 def prewarm(proc) -> None:
-    proc.userdata["retriever"] = LumaRetriever()
+    proc.userdata["retriever"] = ReflectRetriever()
     proc.userdata["vad"] = silero.VAD.load()
 
 async def entrypoint(ctx: JobContext) -> None:
     await ctx.connect(auto_subscribe=AutoSubscribe.AUDIO_ONLY)
     participant = await ctx.wait_for_participant()
 
-    retriever: LumaRetriever = ctx.proc.userdata["retriever"]
+    retriever: ReflectRetriever = ctx.proc.userdata["retriever"]
     vad = ctx.proc.userdata["vad"]
     fnc_ctx = ReflectFunctionContext(retriever=retriever)
     chat_ctx = llm.ChatContext(

@@ -2,7 +2,7 @@ import { AccessToken } from "livekit-server-sdk";
 import { NextResponse } from "next/server";
 
 export async function POST(request: Request) {
-  const { roomName = "luma-demo-room" } = (await request.json().catch(() => ({}))) as {
+  const { roomName = "reflect-demo-room" } = (await request.json().catch(() => ({}))) as {
     roomName?: string;
   };
 
