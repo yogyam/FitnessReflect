@@ -1,0 +1,7 @@
+chromadb==0.5.11
+livekit-agents==0.12.16
+livekit-plugins-openai==0.10.17
+livekit-plugins-silero==0.7.4
+openai>=1.50,<2
+pypdf==5.0.1
+python-dotenv==1.0.1
