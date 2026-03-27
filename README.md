@@ -1,5 +1,8 @@
 # Reflect
 
+**Live Demo:** [https://yogyam-fitnessreflect.vercel.app/](https://yogyam-fitnessreflect.vercel.app/)  
+**Backend:** Hosted via AWS EC2.
+
 Reflect is a RAG-enabled LiveKit voice agent that acts as an evening fitness accountability coach. It logs daily metrics (steps, calories, protein, workout notes) through natural voice conversation, compares them against historical entries via retrieval-augmented generation, and persists each session into a growing fitness journal.
 
 ## System Architecture
